@@ -2,12 +2,12 @@ Source: python-stdlib-extensions
 Section: python
 Priority: optional
 Maintainer: Matthias Klose <doko@debian.org>
-Build-Depends: debhelper (>= 5),
+Build-Depends: debhelper (>= 9),
   python-all-dev (>= 2.7.11-1~), python-all-dbg,
   tk8.6-dev, blt-dev (>= 2.4z-9), libgdbm-dev
 Build-Conflicts: tcl8.4-dev, tk8.4-dev, tcl8.5-dev, tk8.5-dev
 XS-Python-Version: 2.7
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: python-tk
 Architecture: any
